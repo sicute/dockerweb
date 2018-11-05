@@ -1,0 +1,14 @@
+{
+  "name": "dockerweb",
+  "version": "1.0.0",
+  "description": "test dockerweb ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sonjaya@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
