@@ -1,4 +1,5 @@
 # ini komentar
+.gitignore
 *.[oa]             # abaikan file *.o dan *.a
 *~
 *.pyc
