@@ -16,3 +16,4 @@ test/              # abaikan semua file didalam folder test/
 doc/*.txt          # abaikan doc/notes.txt, 
 /node_modules/      # abaikan node modules
 *.log
+-- node_modules
