@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying to CI'
-                sh ota/deploy 
+                sh 'ota/deploy' 
             }
         }
     }
