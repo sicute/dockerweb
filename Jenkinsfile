@@ -19,7 +19,12 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying to CI'
-                sh 'ota/deploy' 
+               sh 'ssh 172.31.92.53'
+               sh 'cd ~/dockerweb'
+               sh 'git pull'
+               sh 'npm install'
+               sh 'pm2 restart all'
+               
             }
         }
     }
